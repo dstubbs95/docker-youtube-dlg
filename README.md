@@ -1,6 +1,8 @@
 # docker-youtube-dlg
 Runs the youtube-dlg application from https://github.com/MrS0m30n3/youtube-dl-gui inside of a docker application.
 
+Created using the docker-baseimage-gui from: https://github.com/jlesage/docker-baseimage-gui
+
 ## Useage
 First you need to build the docker image using the included docker file. This can be done using:
  

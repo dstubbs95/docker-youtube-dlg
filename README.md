@@ -4,11 +4,11 @@ Runs the youtube-dlg application from https://github.com/MrS0m30n3/youtube-dl-gu
 ## Useage
 First you need to build the docker image using the included docker file. This can be done using:
  
-	`docker build -t docker-youtube-dlg .`
+	docker build -t docker-youtube-dlg .
 
 Then you can run the docker image using:
 
-	`docker run --rm -p [hostport]:5800 -v [hostdirectory]:/youtube-dl-downloads docker-youtube-dlg`
+	docker run --rm -p [hostport]:5800 -v [hostdirectory]:/youtube-dl-downloads docker-youtube-dlg
 
 Where:
 
